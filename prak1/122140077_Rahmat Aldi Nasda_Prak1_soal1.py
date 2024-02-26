@@ -8,7 +8,7 @@ def penghitungan (batas_bawah, batas_atas):
     
     total = 0
 
-    if batas_bawah > 0 and batas_atas > 0:
+    if batas_bawah >= 0 and batas_atas > 0:
         for angka in range (batas_bawah, batas_atas):
             if angka % 2 == 1:
                 print (angka)   
